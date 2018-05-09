@@ -1,4 +1,4 @@
-# serverless-webpack-template
+# serverless-webpack-template-jest
 
 This is a Serverless service template for the Serverless framework, it provides the latest JavaScript features(ES6 via Webpack + Babel, testing with mocha+chai+sinon, linting with ESLint, and formatting with Prettier) along with other interesting plugins such as **serverless-offline** and **serverless-plugin-aws-alerts** which are required on the most of serverless projects out there.
 
@@ -13,7 +13,7 @@ Note: Currently, this starter kit specifically targets AWS.
 yarn global add serverless
 
 # Use the serverless cli to install this repo
-serverless install --url https://github.com/ccverak/serverless-webpack-template
+serverless install --url https://github.com/ccverak/serverless-webpack-template-jest
 ```
 
 ## Configuration
